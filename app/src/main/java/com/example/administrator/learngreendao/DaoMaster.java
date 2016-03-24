@@ -15,7 +15,7 @@ import com.example.administrator.learngreendao.NoteDao;
  * Master of DAO (schema version 1000): knows all DAOs.
 */
 public class DaoMaster extends AbstractDaoMaster {
-    public static final int SCHEMA_VERSION = 1900;
+    public static final int SCHEMA_VERSION = 19600;
 
     /** Creates underlying database table using DAOs. */
     public static void createAllTables(SQLiteDatabase db, boolean ifNotExists) {
